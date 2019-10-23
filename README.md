@@ -12,15 +12,15 @@ Set up your react development environment:
 * You will need Node, python2, and jdk8
 * If you do not have Node installed run:
 ```
-choco install nodejs --version 12.8
+$ choco install nodejs --version 12.8
 ```
 * to install python2 and jdk run:
 ```
-choco install -y python2 jdk
+$ choco install -y python2 jdk
 ```
 * to install React Native CLI run:
 ```
-npm install -g react-native cli
+$ npm install -g react-native cli
 ```
 
 ### Emulate Mobile (Android)
@@ -29,21 +29,33 @@ npm install -g react-native cli
 
 
 ### Download Repo
-
+* run:
+```
+$ git clone https://github.com/rubenuribe-2/devlink-ACC.git
+```
+* cd into the directory:
+```
+$ cd devlink-ACC 
+```
+* install dependancies
+```
+$ npm install
+```
+* start development server
+```
+react-native run-android
+```
 
 
 
 
 
 ### Workflow:
-* Make sure you are on your own branch when you are making changes. 
-* Do not edit the build folder! Edit the src folder!
-* To test your changes, run $ npm run build
+* Make sure you are on your own branch when you are making changes.
 * To see which files you have changed,  
 $ git status
 * To save those changes to the GitHub copy of your branch,  
 $ git add &lt;filename&gt;  
 $ git commit -m "message"  
 $ git push origin &lt;your-branch-name&gt;
-* To submit your changes to be added to master, create a pull request and add Hannah and/or Mitchell as reviewers
-* Make sure that you do not publicly commit your API key to this repository
+* To submit your changes to be added to master, create a pull request and add Ruben and/or Lucas as reviewers
