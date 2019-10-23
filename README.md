@@ -26,6 +26,7 @@ $ npm install -g react-native cli
 ### Emulate Mobile (Android)
 * You must install Android Studio to emulate an android on your computer.
 * Check out: https://facebook.github.io/react-native/docs/getting-started and follow the instructions on there to download and set up Android Studio.
+* Only follow the section on installing Android Studio. Doing the initial part may cause breaking changes.
 
 
 ### Download Repo
