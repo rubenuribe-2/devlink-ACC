@@ -16,7 +16,7 @@ $ choco install nodejs --version 12.8
 ```
 * to install python2 and jdk run:
 ```
-$ choco install -y python2 jdk
+$ choco install -y python2 jdk8
 ```
 * to install React Native CLI run:
 ```
@@ -40,7 +40,7 @@ $ npm install
 ```
 * start development server
 ```
-react-native run-android
+$ react-native run-android
 ```
 
 
