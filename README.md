@@ -11,11 +11,17 @@ Set up your react development environment:
 
 * You will need Node, python2, and jdk8
 * If you do not have Node installed run:
-```choco install nodejs --version 12.8```
+```
+choco install nodejs --version 12.8
+```
 * to install python2 and jdk run:
-```choco install -y python2 jdk```
+```
+choco install -y python2 jdk
+```
 * to install React Native CLI run:
-```npm install -g react-native cli```
+```
+npm install -g react-native cli
+```
 
 ### Emulate Mobile (Android)
 * You must install Android Studio to emulate an android on your computer.
