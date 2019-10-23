@@ -32,8 +32,6 @@ $ npm install -g react-native cli
 * clone:
 ```
 $ git clone https://github.com/rubenuribe-2/devlink-ACC.git
-```
-```
 $ cd devlink-ACC 
 ```
 * install dependancies
